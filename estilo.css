@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0px;
+    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-vector-white-abstract-background-design-templates-collection-wit-picture-image_981771.jpg);
+  }
+    .datosdecontacto {
+    width: 27%;
+    float: left;
+    background-image: url(https://i.pinimg.com/736x/cc/4e/4d/cc4e4d242334ce698c7fce4d8e3e5782.jpg);
+    /*background: #15A3A3;
+    background: -moz-linear-gradient(45deg, #15A3A3 0%, #6CE6DF 47%, #BFFAFF 100%);
+    background: -webkit-linear-gradient(45deg, #15A3A3 0%, #6CE6DF 47%, #BFFAFF 100%);
+    background: linear-gradient(45deg, #15A3A3 0%, #6CE6DF 47%, #BFFAFF 100%);*/
+  }
+    .datosdeexperiencia {
+    width: 73%;
+    float: left;
+    
+    /*background-color: rgb(245, 245, 245); */
+  }
+    .datosdeexperiencia.nuevaseccion{
+      width: 50%;
+      float: left;
+      /* background-color: #E0DEDE;  ---> ver si dejar!!*/
+    }
+  #circular {
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    margin: 20px;
+    margin-left: 80px;
+    margin-bottom: 8px;
+}
+  h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 35px;
+    color: #000000;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    width: 315px; 
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  h2.profesion {
+    font-family: 'PT Serif', serif;
+    font-size: 29px;
+    color: #000000;
+    font-weight: 450;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    width: 285px; 
+    margin: 0 auto;
+  }
+  h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px ridge #000000;
+    margin: 35px;
+    margin-bottom: 20px;
+    padding-left: 7px;
+    padding-bottom: 3px;
+  }
+  /*.subrayado {
+    text-decoration: underline solid rgb(68, 68, 68);
+  }   --> Por ahora quedó sin uso */
+  header.encabezado {
+    margin: 35px
+  }
+  h4 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #000000;
+    margin: 10px;
+  }
+  .contenido {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  h5 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    color: #000000;
+    text-decoration: underline solid rgb(68, 68, 68);
+    margin: 14px;
+  }
+  #descripcion1 {
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: justify;
+  }
+  #descripcion2 {
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: justify;
+  }
+  p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .fa-solid.fa-user {
+    margin: 0px;
+    padding: 0px;
+  }
+  .parrafo1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    margin: 3px;
+    text-align: justify;
+  }
+
+  .Boton {
+    color: rgb(255, 255, 255); 
+    font-size: 16px; 
+    line-height: 16px; 
+    padding: 3px; 
+    border-radius: 2px; font-family: 'PT Serif', serif; background-image: linear-gradient(to right, rgb(89, 197, 230) 0%, rgb(168, 225, 237) 50%, rgb(117, 181, 223) 100%); box-shadow: rgb(0, 0, 0) 2px 2px 6px 2px; border: 1px solid rgb(128, 175, 206); display: inline-block;}
+    .Boton:hover {
+    background: #5ecedb; }
+    .Boton:active {
+    background: #70e4ea; }
+
+  .formulario {
+    max-width: 100%;
+    margin-top: 10px;
+    padding: 0px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ZrbKBugeEIqlYV69qGePao5KWyp0PdklOw&usqp=CAU);
+    background-size: cover;
+  }
+
+  .tituloFormulario {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 700;
+  }
+
+  .formularioLabel {
+    display: block;
+    width: 100%;
+    padding-left: 5px;
+    position: absolute;
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.8);
+    transition: all 0.2s;
+    margin-top: -53px;
+    margin-left: 14px;
+    font-family: 'PT Serif', serif;
+    font-size: 17px;
+    /*
+    z-index: -20;
+    cuando lo agrego desaparece el texto del label por más que el background del input tenga transparencia*/
+  }
+
+  .formularioInput {
+    margin-bottom: 25px;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: block;
+    width: 94%;
+    font-size: 16px;
+    background: rgba(96, 96, 96, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-family: Georgia, serif;
+    padding: 6px 8px;
+  }
+
+  .formularioInput:focus {
+    outline: 1px solid rgb(116, 178, 220)
+  }
+  
+  .formularioInput:focus + .formularioLabel {
+    margin-top: -79px;
+  }
+
+  .formularioSubmit {
+    display: block;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    padding: 10px 20px;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+  }
+
+  .contenidoFormulario {
+    margin: 30px;
+  }
+
+  .botonFormulario {
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 9px;
+    text-decoration: none;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    -webkit-box-shadow: 1px 2px 7px #666666;
+    -moz-box-shadow: 1px 2px 7px #666666;
+    box-shadow: 1px 2px 7px #666666;
+    text-shadow: 0px 1px 3px #666666;
+    border: dotted #040404 1px;
+    margin-bottom: 50%;
+    margin-top: 15%;
+    background: url(https://img.freepik.com/fotos-premium/conexion-social-o-comunicacion-empresarial-red-contactos-sobre-fondo-azul-render-3d_188237-763.jpg);
+  }
+  
+  .botonFormulario:hover {
+    border: solid #6c87f6ac 2px;
+    color: rgba(11, 162, 255, 0.852);
+  }
+
+  .fijar {
+    margin-top: -79px;
+    }
